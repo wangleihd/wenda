@@ -71,12 +71,12 @@ git remote add youname https://github.com/youname/wenda.git
 ### 开发流程（每次开发都要运行）
 ```
 git fetch origin
-git checkout -b development origin/development (create a new branch for development)
-git reset --hard origin/development (reset the local branch to latest origin development branch)
-git rebase origin/development (rebase local change onto origin development branch)
+git checkout -b develop origin/develop (create a new branch for development)
+git reset --hard origin/develop (reset the local branch to latest origin development branch)
+git rebase origin/develop (rebase local change onto origin development branch)
 do some work ...
 git commit changes
-git push --force youname development
+git push --force youname develop
 ```
 
 ### 发送pull request（每次push都需要）
