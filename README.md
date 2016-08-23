@@ -66,13 +66,14 @@ git clone --recursive https://github.com/wangleihd/wenda.git
 ```
 cd wenda
 git remote add youname https://github.com/youname/wenda.git
+git fetch youname
+git fetch origin
+git checkout -b develop origin/develop (create a new branch for development)
+git reset --hard origin/develop (reset the local branch to latest origin development branch)
 ```
 
 ### 开发流程（每次开发都要运行）
 ```
-git fetch origin
-git checkout -b develop origin/develop (create a new branch for development)
-git reset --hard origin/develop (reset the local branch to latest origin development branch)
 git rebase origin/develop (rebase local change onto origin development branch)
 do some work ...
 git commit changes
