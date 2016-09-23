@@ -1,7 +1,5 @@
 # Meteor + mantra + Reactjs 开发问答系统
 
-
-
 使用最新的`Meteor`框架 + 用`mantra`和最流行的前端框架`React`实现wenda系统.
 
 
